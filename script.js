@@ -40,3 +40,17 @@ console.log("My age in dog years is " + ageDogYears)
 // Usisng the plus sign with at least one "String"
 // means you're combining (concatenating) not doing addition
 
+// console.log is a built-in FUNCTION we use a lot
+// TASK: display data in the console
+console.log("I just used a function!");
+// some functions need PARAMETERS (input)
+
+// DEFINE (create) your own function
+function skincare() {
+    // STATEMENTS (actions) to execute for this routine
+    console.log("1. Cleanse");
+    console.log("2. Apply serums");
+    console.log("3. Moisturize");
+}
+// CALL the function to use it!
+skincare();
