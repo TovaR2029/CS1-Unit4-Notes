@@ -72,3 +72,54 @@ function makeSandwich(filling, sauce, bread) {
 // using a function with input mean YOU need to provide arguments in the parenthesis
 let mySandwich = makeSandwich("mozzarella", "pesto", "baguette");
 console.log(mySandwich);
+
+
+/* Selection/branching (CONDITIONALS)
+    A BOOLEAN EXPRESSION is like a QUESTION
+    that has a boolean ANSWER (true/false)
+*/
+
+console.log(5 < 28); // true is the answer!
+console.log("10 greater than 20?")
+console.log(10 > 20);
+
+// check EQUALITY using the == operator (or ===)
+console.log(1 == 1);
+console.log(1 != 1); // false (!= means NOT equal)
+
+// example: password matching
+let password = "1234!";
+console.log("checking if the string matches the stored password");
+console.log("6789^" == password);
+
+// using comparison operators with STRINGS
+console.log("Lili" > "Amelie"); // L comes later than A, so it's considered "greater than"
+console.log("tova" < "Tova"); // false, t comes later than T
+
+// IF STATEMENTS use conditions to make decisions
+// conditions can be booleans or boolean expressions\
+
+let userAge = 16;
+
+if (userAge >= 17) {
+    // code in the curly brackets only runs if true
+    console.log("you can get your NY liscense!")
+
+}
+
+// ELSE-IF BLOCKs test multiple options
+else if (userAge == 16) {
+    console.log("you can get your learners permit!")
+}
+
+// ELSE BLOCK accounts for the "otherwise" case
+else {
+    console.log("too young to drive");
+}
+
+
+
+
+
+
+
